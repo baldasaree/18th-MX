@@ -6,7 +6,7 @@ let clickCount = 0;
 firstBtn.addEventListener('click', () => {
 
     clickCount++;
-    if (clickCount === 3) {
+    if (clickCount === 10) {
         const para = document.createElement('p');
         para.textContent = "Welcome to Liaison Officer of the 18th Management e[X]posed!";
         body.appendChild(para);
