@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-btn {
+    margin-top: 10%;
+    background-color: red;
+    color: white;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
