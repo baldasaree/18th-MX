@@ -6,7 +6,7 @@ body {
 }
 
 .first-btn {
-    font-align: center;
+    text-align: center;
     border: 2px solid black;
     margin-top: 10%;
     background-color: red;
@@ -17,5 +17,5 @@ body {
 }
 
 p {
-    font-align: center;
+    text-align: center;
 }
