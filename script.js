@@ -18,7 +18,13 @@ firstBtn.addEventListener('click', () => {
     if (clickCount === 10) {
         const para = document.createElement('p');
         const link = document.createElement('a');
-        para.textContent = "Welcome to Liaison Officer of the 18th Management e[X]posed!";
+        const linkText = document.createTextNode("sini dong");
+
+        link.href = "https://line.me/ti/g/eTcMJdMpnZ";
+        para.textContent = "met ya bank";
+        link.appendChild(linkText);
+        
         body.appendChild(para);
+        body.appendChild(link);
     }
 })
