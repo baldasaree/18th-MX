@@ -8,11 +8,11 @@ firstBtn.addEventListener('click', () => {
     clickCount++;
 
     if (clickCount === 5) {
-        firstBtn.textContent = "Almost There";
+        firstBtn.textContent = "DIKIT LAGIII";
     }
 
     if (clickCount === 8) {
-        firstBtn.textContent = "Really Close";
+        firstBtn.textContent = "BENERAN DIKIT LAGI";
     }
     
     if (clickCount === 10) {
