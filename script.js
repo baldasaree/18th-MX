@@ -17,6 +17,7 @@ firstBtn.addEventListener('click', () => {
     
     if (clickCount === 10) {
         const para = document.createElement('p');
+        const link = document.createElement('a');
         para.textContent = "Welcome to Liaison Officer of the 18th Management e[X]posed!";
         body.appendChild(para);
     }
