@@ -20,6 +20,7 @@ firstBtn.addEventListener('click', () => {
         const link = document.createElement('a');
         const linkText = document.createTextNode("sini dong");
 
+        link.classList.add('the-link');
         link.href = "https://line.me/ti/g/eTcMJdMpnZ";
         para.textContent = "met ya bank";
         link.appendChild(linkText);
